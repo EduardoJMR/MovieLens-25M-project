@@ -238,7 +238,7 @@ genre_ratings[:10]
 ```
 ![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture10.JPG) 
  
- 
+We then decided to do the same with the search engines and count the number of times the different search engines are used.To do this we have to take the data from a column, column a with the Browser's name data, and keep the first word that corresponds to the search engine.  
  
  
  

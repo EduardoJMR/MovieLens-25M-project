@@ -167,7 +167,7 @@ most_rated_titles= ratings_by_title.index[ratings_by_title >= 250]
 mean_ratings= mean_ratings.loc[most_rated_titles]
 mean_ratings
 ```
-![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture11.JPG)
+![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture4.JPG)
 
 #### Once we have the film titles sorted by the 250 most rated we can study which has been rated by gender, female or male.
 
@@ -175,7 +175,7 @@ mean_ratings
 top_female_ratings= mean_ratings.sort_values("F", ascending=False)
 top_female_ratings.head()
 ```
-![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture5.JPG)
+![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture11.JPG)
 
 ## Movies that are most divisive between male and female viewers?
 

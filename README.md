@@ -1,7 +1,7 @@
 # MovieLens-25M-project
 
 #### It is a database about films rating by users between the late 1990s and early 2000.
-#### The data cames from 3 databases:
+#### The data comes from 3 databases:
 
   - users.dat
   - rating.csv

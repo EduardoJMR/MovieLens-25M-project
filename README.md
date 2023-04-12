@@ -109,10 +109,8 @@ ratings= pd.read_csv("ratings.csv")
 mnames=["movie_id", "title", "genres"]
 movies=pd.read_csv("movies.csv")
 ```
- 
-## The 20 best rated films by gender?
- 
- ### Cleaning the data
+
+### Cleaning the data
  
 #### Due to the data being spread across three tables, the first thing to do is to merge them.
  
@@ -154,6 +152,8 @@ sns.barplot(x="rating_by_gender",y="title",hue="gender", data= mean_ratings_20)
 ```
 ### The 20 best rated films by gender 
 ![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture3.JPG)
+
+## Top films among female viewers?
 
 ### Transforming the data
  

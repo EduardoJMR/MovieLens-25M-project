@@ -208,7 +208,7 @@ rating_std_by_title.sort_values(ascending=False)[:10]
 ![image](https://github.com/EduardoJMR/MovieLens-25M-project/blob/master/images/Capture7.JPG)
 
 
-## Films classification title by genre and group of age.
+## Film titles classification by genre and group of age.
 
 ### Transforming the data
 
